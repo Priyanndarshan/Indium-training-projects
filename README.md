@@ -1,6 +1,7 @@
 # JavaScript Training Projects
 
-This repository contains a collection of beginner-friendly JavaScript projects for learning and practice. Each folder is a self-contained project with its own code and resources.
+This repository contains a collection of hands-on projects completed during my training period at Indium.
+The projects are organized sequentially to reflect structured learning and progressive improvement.
 
 ## Projects Overview
 
