@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Posts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📝 Blog Posts</h1>
+
+        <div id="message" class="message"></div>
+
+        <!-- Add New Post Form -->
+        <div class="form-section">
+            <h2>Add New Post</h2>
+            <form id="postForm">
+                <div class="form-group">
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="content">Content:</label>
+                    <textarea id="content" name="content" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="authorId">Author ID:</label>
+                    <input type="number" id="authorId" name="authorId" value="1" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="categoryId">Category ID:</label>
+                    <input type="number" id="categoryId" name="categoryId" value="1" required>
+                </div>
+
+                <button type="submit">Add Post</button>
+            </form>
+        </div>
+
+        <!-- Display Posts -->
+        <div class="posts-section">
+            <h2>All Posts</h2>
+            <div id="postsList" class="loading">Loading posts...</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

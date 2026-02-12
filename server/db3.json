@@ -1,0 +1,11 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Understanding JavaScript Promises (Mirror Server 2)",
+      "content": "Backup server blog data.",
+      "authorId": 1,
+      "categoryId": 1
+    }
+  ]
+}

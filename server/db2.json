@@ -1,0 +1,11 @@
+{
+  "posts": [
+    {
+      "id": 9,
+      "title": "My New Blog Post",
+      "content": "This is the content of my post",
+      "authorId": 1,
+      "categoryId": 1
+    }
+  ]
+}

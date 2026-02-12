@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": "640f",
+      "title": "New Test Post",
+      "content": "Testing POST functionality",
+      "authorId": 1,
+      "categoryId": 1
+    },
+    {
+      "id": 12234,
+      "title": "My New Blog Post",
+      "content": "This is the content of my post",
+      "authorId": 1,
+      "categoryId": 1
+    },
+    {
+      "id": 9,
+      "title": "My New Blog Post",
+      "content": "This is the content of my post",
+      "authorId": 1,
+      "categoryId": 1
+    },
+    {
+      "id": "9d4d",
+      "title": "new post",
+      "content": "wonderful day",
+      "authorId": 12334,
+      "categoryId": 12342323
+    }
+  ],
+  "authors": [
+    {
+      "id": "1",
+      "name": "Priyan"
+    },
+    {
+      "id": "2",
+      "name": "Alex"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Programming"
+    },
+    {
+      "id": "2",
+      "name": "Web Development"
+    }
+  ]
+}
