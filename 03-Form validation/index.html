@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Registration Form</h2>
+
+    <form id="myForm">
+
+        <label>First Name*</label>
+        <input type="text" id="firstName">
+        <div class="error" id="firstNameError"></div>
+
+        <label>Last Name*</label>
+        <input type="text" id="lastName">
+        <div class="error" id="lastNameError"></div>
+
+        <label>Email</label>
+        <input type="text" id="email">
+        <div class="error" id="emailError"></div>
+
+        <label>Phone Number</label>
+        <input type="text" id="phone">
+        <div class="error" id="phoneError"></div>
+
+        <label>Password</label>
+        <div class="password-wrapper" style="position:relative;">
+            <input type="password" id="password" style="padding-right:40px;">
+            <span id="togglePassword" style="position:absolute;top:50%;right:12px;transform:translateY(-50%);cursor:pointer;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5C21.27 7.61 17 4.5 12 4.5z" stroke="#374151" stroke-width="2" fill="none"/>
+                    <circle cx="12" cy="12" r="3.5" stroke="#374151" stroke-width="2" fill="none"/>
+                </svg>
+            </span>
+        </div>
+        <div class="strength" id="passwordStrength"></div>
+        <div class="error" id="passwordError"></div>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

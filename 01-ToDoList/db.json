@@ -1,0 +1,34 @@
+{
+  "todo": [
+    {
+      "task": "dance",
+      "status": "done",
+      "createdAt": "10/2/2026, 12:04:14 pm",
+      "id": "e209"
+    },
+    {
+      "task": "Drink water",
+      "status": "Ongoing",
+      "createdAt": "10/2/2026, 06:24:19 am",
+      "id": "c597"
+    },
+    {
+      "task": "Practice javascript",
+      "status": "Ongoing",
+      "createdAt": "10/2/2026, 10:24:19 am",
+      "id": "261d"
+    },
+    {
+      "id": "73f8",
+      "task": "Go to office",
+      "status": "Completed",
+      "createdAt": "10/2/2026, 10:37:30 am"
+    },
+    {
+      "newTask": "Learn python",
+      "newStatus": "Completed",
+      "createdAt": "10/2/2026, 10:52:27 am",
+      "id": "f0bf"
+    }
+  ]
+}
