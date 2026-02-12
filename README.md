@@ -23,4 +23,3 @@ A form validation demo showing how to validate user input using JavaScript.
 
 ---
 
-**Note:** These projects are for educational purposes and demonstrate core JavaScript concepts.
